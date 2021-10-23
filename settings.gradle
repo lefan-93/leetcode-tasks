@@ -1,3 +1,4 @@
 rootProject.name = 'leetcode-tasks'
-include 'shuffle-string'
+include '1528-shuffle-string'
+include '35-search-insert-position'
 

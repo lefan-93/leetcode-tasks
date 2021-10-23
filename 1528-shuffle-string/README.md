@@ -1,4 +1,6 @@
-###1528. Shuffle String
+### 1528. Shuffle String
+
+link to the problem on the website [leet code](https://leetcode.com/problems/shuffle-string/)
 
 Given a string `s` and an integer array `indices` of the __same length__.
 
