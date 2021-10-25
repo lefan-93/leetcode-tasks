@@ -1,4 +1,12 @@
 rootProject.name = 'leetcode-tasks'
 include '1528-shuffle-string'
 include '35-search-insert-position'
+include '1-two-sum'
+include '13-roman-to-integer'
+include '1672-richest-customer-wealth'
+include '27-remove-element'
+include '2011-final-value-of-variable-after-performing-operations'
+include '1909-remove-one-element-to-make-the-arraystrictly-increasing'
+include '1313-decompress-run-length-encoded-list'
+include '1365-how-many-numbers-are-smaller-than-the-current-number'
 
