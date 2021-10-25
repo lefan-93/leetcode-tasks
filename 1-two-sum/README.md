@@ -1,4 +1,4 @@
-###1. Two Sum
+### 1. Two Sum
 
 link to the problem on the website [leet code](https://leetcode.com/problems/two-sum/)
 
