@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SolutionTest {
+class SolutionTest {
 
     private final static String EXAMPLE_1_INPUT_STRING = "codeleet";
     private final static String EXAMPLE_2_INPUT_STRING = "abc";
