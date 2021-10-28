@@ -1,3 +1,5 @@
+package org.solution._1;
+
 public class Solution {
 
     public int[] twoSum(int[] nums, int target) {
