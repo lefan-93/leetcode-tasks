@@ -12,4 +12,8 @@ include '1365-how-many-numbers-are-smaller-than-the-current-number'
 include '1470-shuffle-the-array'
 include '1431-kids-with-the-greatest-number-of-candies'
 include '1512-number-of-good-pairs'
+include '1920-build-array-from-permutation'
+include '1929-concatenation-of-array'
+include '1480-running-sum-of-1d-array'
+include '1720.-decode-XORed-array'
 
