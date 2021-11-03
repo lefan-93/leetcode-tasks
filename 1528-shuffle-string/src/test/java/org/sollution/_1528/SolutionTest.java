@@ -1,4 +1,7 @@
+package org.sollution._1528;
+
 import org.junit.jupiter.api.Test;
+import org.solution._1528.Solution;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
