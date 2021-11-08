@@ -1,6 +1,6 @@
 ### 1221. Split a String in Balanced Strings
 
-link to the problem on the website [leet code](https://leetcode.com/problems/concatenation-of-array/)
+link to the problem on the website [leet code](https://leetcode.com/problems/split-a-string-in-balanced-strings/)
 
 __Balanced__ strings are those that have an equal quantity of `'L'` and `'R'` characters.
 
