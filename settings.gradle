@@ -19,4 +19,6 @@ include '1720.-decode-XORed-array'
 include '1389-create-target-array-in-the-given-order'
 include '1773-count-items-matching-a-rule'
 include '1221-split-a-string-in-balanced-strings'
+include '2037-minimum-number-of-moves-to-seat-everyone'
+include '2006-count-number-of-pairs-with-absolute-difference-K'
 
