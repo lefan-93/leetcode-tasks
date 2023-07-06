@@ -1,5 +1,5 @@
-### 1. Two Sum
-
+### Two Sum
+### 1. The task
 link to the problem on the website [leet code](https://leetcode.com/problems/two-sum/)
 
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
@@ -43,3 +43,39 @@ Constraints:
 
 
 __Follow-up__: Can you come up with an algorithm that is less than O(n<sup>2</sup>) time complexity?
+
+###2. Solution
+#### 2.1 Verbal description
+
+Since at the moment I do not know the solution in time less than O(n<sup>2</sup>), 
+so below I will describe a solution method in time O(n<sup>2</sup>) that iterates through the array using an internal loop.
+
+1. 
+
+#### 2.2 Pseudocode 
+
+
+````
+TWO_SUM(A, target)
+
+> Input: array A, int target
+> Output: array contains indices of array A, that two numbers such that they add up to target
+
+answer[]
+//outer loop
+for i = 0 to A.length - 1
+    //inner loop
+    for j = i+1 to A.length - 1
+        if A[i] + A[i+j] = target
+            then answer[0] = i
+                 answer[1] = j
+return answer
+````
+
+### 3 Visualization
+#### 3.1 Flow diagram
+
+![flow diagram](FlowDiagram.jpg)
+#### 3.2 Animation 
+
+https://user-images.githubusercontent.com/38985170/218475295-a6a9e2c7-1a13-4723-a3af-d4c10dd6078b.mp4 
