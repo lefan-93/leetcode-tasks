@@ -47,5 +47,5 @@ __Дополнительно__: Можете ли вы придумать алг
 
 https://user-images.githubusercontent.com/38985170/218475295-a6a9e2c7-1a13-4723-a3af-d4c10dd6078b.mp4
 
-$\sum_{i=0}^n $
+$$\sum_{i=0}^n$$
 
