@@ -43,9 +43,36 @@ __Пример 3__:
 __Дополнительно__: Можете ли вы придумать алгоритм, сложность которого меньше O(n<sup>2</sup>) по времени?
 
 #### 2. Решение алгоритма two sum 
+##### 2.1 Словесное описание
 
-1. 
+Поскольку на данный момент я не знаю решения за время меньше O(n<sup>2</sup>),
+поэтому ниже я опишу метод решения за время O(n<sup>2</sup>), который перебирает массив с использованием внутреннего цикла.
 
+#### 2.2 Псевдокод
+
+````
+TWO_SUM(A, target)
+
+> Input: array A, int target
+> Output: array contains indices of array A, that two numbers such that they add up to target
+
+answer[]
+//outer loop
+for i = 0 to A.length - 1
+    //inner loop
+    for j = i+1 to A.length - 1
+        if A[i] + A[i+j] = target
+            then answer[0] = i
+                 answer[1] = j
+return answer
+````
+
+### 3 Визуализация
+#### 3.1 Блок схема
+
+![flow diagram](FlowDiagram.jpg)
+
+#### 3.2 Анимация
 
 https://user-images.githubusercontent.com/38985170/218475295-a6a9e2c7-1a13-4723-a3af-d4c10dd6078b.mp4
 
@@ -76,4 +103,4 @@ $$с0 + с1n + c2 {(n(n+1)\over2} + c3 {(n(n-1)\over2} + c4 {(n(n-1)\over2} + c5
 
 Это время можно записать в виде $$an^2 + bn + c$$
 
-Таким образом, порядок роста функции в наихудшем случае асимптотически равен $$O^2$$
+Таким образом, порядок роста функции в наихудшем случае асимптотически равен $$O \left(n^2\right)$$
