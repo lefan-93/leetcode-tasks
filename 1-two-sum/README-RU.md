@@ -72,7 +72,7 @@ $$\sum_{i=1}^n t_j = {n(n+1)\over2}$$
 $$\sum_{i=1}^n t_j-1 = {n(n-1)\over2}$$$$ 
 
 Таким образом общее время работы алгоритма равно:
-$$с0 + с1n + c2 {(n(n+1)\over2} + c3 {(n(n-1)\over2} + c4 {(n(n-1)\over2} + c5{(n(n-1)\over2} = \left( {c2\over2}$$ + {c3\over2} + {c4\over2} + {c5\over2} \right) n^2 + \left( c1 + {c2\over2}$$ - {c3\over2} - {c4\over2} - {c5\over2} \right) n +  c0 $$ 
+$$с0 + с1n + c2 {(n(n+1)\over2} + c3 {(n(n-1)\over2} + c4 {(n(n-1)\over2} + c5{(n(n-1)\over2} = \left( {c2\over2} + {c3\over2} + {c4\over2} + {c5\over2} \right) n^2 + \left( c1 + {c2\over2} - {c3\over2} - {c4\over2} - {c5\over2} \right) n +  c0 $$ 
 
 Это время можно записать в виде $$an^2 + bn + c$$
 
